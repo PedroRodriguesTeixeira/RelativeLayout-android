@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Relative Layout</string>
+    <string name="estou_aqui">Estou aqui!</string>
+    <string name="estou_aqui_tambem">Estou aqui tambem!</string>
+    <string name="log_in">log in</string>
+    <string name="register_link">Ainda não é cadastrado? Cadastre-se!</string>
+    <string name="forgot_password">Esqueceu sua senha?</string>
+    <string name="password">Senha</string>
+    <string name="email">Email</string>
+</resources>

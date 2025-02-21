@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:background="@color/white"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="4dp"
+        android:text="@string/email"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_email"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="4dp"
+        android:text="@string/password"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_senha"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#DADADA"
+        android:text="@string/log_in"
+        android:textAllCaps="true"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/text_singup_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/register_link"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/image_support"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/baseline_contact_support_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/image_support"
+        android:gravity="center"
+        android:text="@string/forgot_password" />
+
+</RelativeLayout>
